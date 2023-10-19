@@ -1,0 +1,11 @@
+pravtice_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: healthy-highway-396407
+      dataset: marks
+      location: 'EU'
+      threads: 4
+      keyfile: /Users/gladstan/Downloads/Json/
